@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .fondo{
-    background-color: #5472D3;
+    background-image: linear-gradient(128deg, hsl(222deg 100% 22%), hsl(242deg 88% 66%));;
 }
 .container{
     background-color: #ffffff;
@@ -56,6 +56,7 @@
 }
       
 .Logo1{
+    margin-bottom: 10px;
     margin-top: 10px;
     margin-left: 43%;
     border-radius: 10%;
