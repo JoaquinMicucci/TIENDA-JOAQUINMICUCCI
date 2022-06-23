@@ -13,12 +13,15 @@
       "FOOTER FOOTER FOOTER FOOTER FOOTER";
     
     .Botones{
-        .Botones li{
-        font-size: 22px;
-        display: inline-block;
-        margin: 10px;
-        padding-left: 110px;
-        padding-right:3px;
+         li{
+          font-size: 22px;
+          display: inline-block;
+          margin: 10px;
+          padding-left: 110px;
+          padding-right:3px;
+          &:hover{
+            color: red;
+          }
         
          }
     font-size: 1.3rem;

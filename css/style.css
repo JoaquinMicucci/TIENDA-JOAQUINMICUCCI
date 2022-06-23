@@ -13,12 +13,14 @@
     grid-template-areas: "NAV NAV NAV NAV NAV" "MAIN MAIN MAIN MAIN MAIN" "MAIN MAIN MAIN MAIN MAIN" "FOOTER FOOTER FOOTER FOOTER FOOTER"; }
     .fondo .container .Botones {
       font-size: 1.3rem; }
-      .fondo .container .Botones .Botones li {
+      .fondo .container .Botones li {
         font-size: 22px;
         display: inline-block;
         margin: 10px;
         padding-left: 110px;
         padding-right: 3px; }
+        .fondo .container .Botones li:hover {
+          color: red; }
       .fondo .container .Botones .NAV {
         background-color: #002171;
         grid-area: NAV; }
