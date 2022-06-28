@@ -1,0 +1,16 @@
+%estilosTitle{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+%estilosParrafo{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20px;
+}
+
+@mixin fontStyle($colorSecundario, $parrafoSecundario) {
+    background-color: rgb(253, 253, 253);
+    text-transform: uppercase;
+    color: $colorSecundario;
+}

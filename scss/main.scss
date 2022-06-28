@@ -2,5 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
-@import './index.scss';
+
 @import './variables/colores';
+@import './variables/extend';
+@import './variables/tipografias';
+@import './variables/tamaños';
+
+
+@import './secciones/index.scss';
