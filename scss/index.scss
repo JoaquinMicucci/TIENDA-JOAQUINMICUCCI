@@ -1,7 +1,9 @@
-.fondo{
-    background-image: white;
-    .container{
-    background-color: #00406b;
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+    background-color: #AFCBFF;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
@@ -32,6 +34,16 @@
     }
 
     }
+.seccion1{
+  margin: 1rem;
+    text-align: center;
+    background-color: #EBEBD3;
+      &__parrafo{
+        text-align: center;
+      margin: 1rem;
+      font-weight: bold;
+      background-color: #EBEBD3;
+    }
+  }
       
 
-}

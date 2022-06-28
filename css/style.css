@@ -2,25 +2,37 @@
   margin: 0px;
   padding: 0px; }
 
-.fondo {
-  background-image: white; }
-  .fondo .container {
-    background-color: #00406b;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: "NAV NAV NAV NAV NAV" "MAIN MAIN MAIN MAIN MAIN" "MAIN MAIN MAIN MAIN MAIN" "FOOTER FOOTER FOOTER FOOTER FOOTER"; }
-    .fondo .container .Botones {
-      font-size: 1.3rem; }
-      .fondo .container .Botones li {
-        font-size: 22px;
-        display: inline-block;
-        margin: 10px;
-        padding-left: 110px;
-        padding-right: 3px; }
-        .fondo .container .Botones li:hover {
-          color: red; }
-      .fondo .container .Botones .NAV {
-        background-color: #002171;
-        grid-area: NAV; }
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  background-color: #AFCBFF;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "NAV NAV NAV NAV NAV" "MAIN MAIN MAIN MAIN MAIN" "MAIN MAIN MAIN MAIN MAIN" "FOOTER FOOTER FOOTER FOOTER FOOTER"; }
+  .container .Botones {
+    font-size: 1.3rem; }
+    .container .Botones li {
+      font-size: 22px;
+      display: inline-block;
+      margin: 10px;
+      padding-left: 110px;
+      padding-right: 3px; }
+      .container .Botones li:hover {
+        color: red; }
+    .container .Botones .NAV {
+      background-color: #002171;
+      grid-area: NAV; }
+
+.seccion1 {
+  margin: 1rem;
+  text-align: center;
+  background-color: #EBEBD3; }
+  .seccion1__parrafo {
+    text-align: center;
+    margin: 1rem;
+    font-weight: bold;
+    background-color: #EBEBD3; }
